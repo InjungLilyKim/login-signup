@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ffile	../test.py	/^ffile = open("list.txt", "a")$/;"	kind:variable	line:10
+resp	../test.py	/^        resp = resp.json()$/;"	kind:variable	line:16
+resp	../test.py	/^    resp = requests.get("https:\/\/api.data.charitynavigator.org\/v2\/Organizations?app_id=e7302ddc&app_key=93d31f477f69fb2f5498cb2e02cdbad0&pageSize=100&rated=true&pageNum=" + str(i+1))$/;"	kind:variable	line:14
+test.py	../test.py	1;"	kind:file	line:1

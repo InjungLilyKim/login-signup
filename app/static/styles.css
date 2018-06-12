@@ -1,0 +1,21 @@
+#login-container{
+  position: relative;
+  width: 400px;
+  left: calc(50% - 200px);
+  margin-top: 50px;
+}
+
+.switch-login-form-link{
+  float: right;
+}
+
+#signup-container{
+  position: relative;
+  width: 400px;
+  left: calc(50% - 200px);
+  margin-top: 50px;
+}
+
+.flash{
+  color: red;
+}

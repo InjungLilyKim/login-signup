@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>    
+    <script src="{{ url_for('static', filename='scripts.js') }}" type="text/javascript"></script>
+    <title>Flask Login/Signup</title>
+  </head>
+
+  <body>
+    <!-- LOGIN FORM -->
+    <div id="login-container" class="jumbotron center-container">
+      <h5>Flask Login 
+      </h5>
+ 
+      <form id = "login-form">
+        <h3> Log In </h3>
+        <p id = "login-flash" class="flash"></p>
+
+        <!--username-->
+          <input name="login-username" type="text" class="form-control" placeholder="Username">
+
+        <!--password-->
+          <input name="login-password" type="password" class="form-control" placeholder="Password">
+        
+        <button id="login-button" class ="btn btn-success">Log In</button>
+      </form>
+      <a class="switch-signup-form-link" href="#" onclick="showSignUpForm();">Don't have an account? Sign up!</a>
+    </div>
+    <!-- END LOGIN FORM -->
+
+    <!-- SIGNUP FORM -->
+    <div id="signup-container" class="jumbotron center-container">
+        <h5>Flask Signup 
+        </h5>
+  
+        <form id = "signup-form">
+          <h3> Sign Up </h3>
+          <p id = "signup-flash" class="flash"></p>
+          
+          <!--username-->
+            <input name="signup-username" type="text" class="form-control" placeholder="Username">
+  
+          <!--password-->
+            <input name="signup-password" type="password" class="form-control" placeholder="Password">
+
+          <!--confirm password-->
+            <input name="signup-password-confirm" type="password" class="form-control" placeholder="Confirm Password">
+
+          <button id="signup-button" class ="btn btn-success">Sign Up</button>
+        </form>
+        <a class="switch-login-form-link" href="#" onclick="showLogInForm();">Already have an account? Log in!</a>
+      </div>
+      <!--END SIGNUP FORM -->
+  </body>
+
+</html>
+
+

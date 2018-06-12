@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+app	../app.py	/^app = Flask(__name__)$/;"	kind:variable	line:6
+app.py	../app.py	1;"	kind:file	line:1
+auth	../test.py	/^auth = firebase.auth()$/;"	kind:variable	line:15
+config	../test.py	/^config = {$/;"	kind:variable	line:3
+days	../test.py	/^        days = user.val()['MEALS']$/;"	kind:variable	line:23
+days	../test.py	/^    days = None$/;"	kind:variable	line:21
+db	../test.py	/^db = firebase.database()$/;"	kind:variable	line:13
+fileName	../test.py	/^                fileName = meal.val()['FILENAME']$/;"	kind:variable	line:30
+firebase	../test.py	/^firebase = pyrebase.initialize_app(config)$/;"	kind:variable	line:11
+home	../app.py	/^def home():$/;"	kind:function	line:9
+login	../app.py	/^def login():$/;"	kind:function	line:25
+logout	../app.py	/^def logout():$/;"	kind:function	line:20
+meals	../test.py	/^            meals = db.child("USERS\/"+ uid + "\/MEALS\/"+day).get()$/;"	kind:variable	line:27
+name	../test.py	/^    name = user.val()['NAME']$/;"	kind:variable	line:19
+storage	../test.py	/^storage = firebase.storage()$/;"	kind:variable	line:14
+test.py	../test.py	1;"	kind:file	line:1
+uid	../test.py	/^    uid = user.key()$/;"	kind:variable	line:20
+url	../test.py	/^                url = storage.child("foodPics\/" + uid + fileName).get_url(None)$/;"	kind:variable	line:31
+users	../test.py	/^users = db.child("USERS").get()$/;"	kind:variable	line:17
